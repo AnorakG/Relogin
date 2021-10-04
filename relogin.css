@@ -14,7 +14,7 @@
     position: absolute;
     border-radius: 20px;
     top: 10px;
-    left: 630px;
+    left: 350px;
   }  
   .clock {
     height: 500px;
@@ -24,7 +24,7 @@
     border: 3px solid black;
     margin: auto;
     position: absolute;
-    top: 0;
+    top: 200px;
     left: 0;
     bottom: 0;
     right: 0;
