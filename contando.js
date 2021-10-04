@@ -1,3 +1,4 @@
+//Relógio Analógico
 function moveHands() {
     with (new Date()) {
       h = 30 * ((getHours() % 12) + getMinutes() / 60); 
@@ -14,6 +15,7 @@ function moveHands() {
     }
   }
   
+//Relógio Digital
 window.onload = moveHands;
   setInterval(showTime, 1000);
   function showTime() {
