@@ -5,26 +5,28 @@
   body {
     background-color: black;
   }
-#relogio {
-    font-size: 175px;
-    width:900px;
-    vertical-align: text-top;
+#relogio{
+    display: block;
+    font-size: 1000%;
+    max-width: 900px;
     color: white;
     text-align: top;
     position: absolute;
+    margin: auto;
     border-radius: 20px;
-    top: 10px;
-    left: 375px;
+    top: 5%;
+    left: 29.5%;
   }  
-  .clock {
-    height: 500px;
-    width: 500px;
+.clock {
+    height: 75%;
+    width: 37.5%;
+    white-space: normal;
     background-color: white;
     border-radius: 100%;
     border: 3px solid black;
     margin: auto;
     position: absolute;
-    top: 200px;
+    top: 50%;
     left: 0;
     bottom: 0;
     right: 0;
